@@ -1,0 +1,18 @@
+{
+  "name": "greencode",
+  "version": "0.1.0",
+  "description": "CLI de logística reversa de resíduos eletrônicos",
+  "type": "module",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npm run build && npm start",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
